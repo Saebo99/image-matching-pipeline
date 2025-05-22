@@ -1,0 +1,48 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Large data directories
+data/*
+!data/sample_data/  # Include sample_data if you choose to add it
+
+# Model weights and checkpoints
+*.h5
+*.pth
+*.pb
+checkpoints/
+models/*
+!models/README.md  # Include a README for model instructions, if needed
+
+# Temporary and output files
+*.log
+*.tmp
+*.cache
+outputs/
+logs/
+
+# Sensitive information
+*.env
+secrets.json
+credentials.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
